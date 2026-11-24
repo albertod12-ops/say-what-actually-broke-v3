@@ -3,7 +3,11 @@
 The health check killed the server for being slow, then marked it
 healthy. Health-check cluster: 0 hits in 400 fresh field texts
 (ATM 25 Nov 2026). 132 characters, one line, no trailing newline.
-Twist: the server is "dead and healthy".
+Twist: the server is "dead and healthy" -- the next step ("Refresh
+and meet its replacement") is part of the joke, not a flat instruction.
+
+Output is mode 0644: the grader collects /output as another user,
+so a 0600 file would fail as unreadable.
 """
 
 import os
